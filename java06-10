@@ -14,7 +14,7 @@ public class secreto1 {
 	
 	for(int i = 0; i < 11; i++) { 
 		System.out.println("Digite um número de 1 a 10: ");
-		int secretoDig = ler.nextInt();
+		int secretoDig = Integer.parseInt(ler.nextLine());
 		if(secretoDig == secreto) {
 			System.out.println("Parabéns, você acertou o número secreto");
 		}else {
