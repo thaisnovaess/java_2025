@@ -1,0 +1,50 @@
+package Pacote1;
+
+import java.util.Scanner;
+
+public class Jogo1 {
+
+	
+	
+	public static void main(String[] args) {
+//		Scanner scanner = new Scanner(System.in);
+//		String[]nomes= new String[4];
+//		
+//		for(int i = 0; i< nomes.length; i++) {
+//			System.out.println("Digite o nome:");
+//			nomes[i] = scanner.nextLine();
+//		}
+//		
+//		for(int i = 0; i < nomes.length; i++) {
+//			System.out.println(nomes[i]);
+//		}
+//	}
+	
+//	Scanner scanner = new Scanner(System.in);
+//	String [][]cadastro = new String[5][3];
+//	for(int i = 0; i < cadastro.length; i++) {
+//		System.out.println("Nome: ");
+//		cadastro[i][0]= scanner.nextLine();
+//		System.out.println("CPF");
+//		cadastro[i][1] = scanner.nextLine();
+//		System.out.println("Telefone");
+//		cadastro[i][2] = scanner.nextLine();
+//	}
+
+		
+		Scanner scanner = new Scanner(System.in);
+		String[][]alunos = new String[4][5];
+		for(int i = 0; i < alunos.length; i++) {
+			System.out.println("Nome: ");
+			alunos[i][0] = scanner.nextLine();
+			System.out.println("Nota 1o Bimestre:");
+			alunos[i][1] = scanner.nextLine();
+			System.out.println("Nota 2o Bimestre:");
+			alunos[i][2] = scanner.nextLine();
+			System.out.println("Nota 3o Bimestre:");
+			alunos[i][3] = scanner.nextLine();
+			System.out.println("Nota 4o Bimestre:");
+			alunos[i][4] = scanner.nextLine();
+		}
+}
+}
